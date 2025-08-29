@@ -1,0 +1,64 @@
+# Solo Theme Developer Documentation
+
+The [AGENTS.md](mdc:AGENTS.md) file in the root directory contains important information about the solo development approach and best practices for this Shopify theme project.
+
+## Developer Information
+
+### Primary Developer
+- **Name**: Mathias Michel
+- **Role**: Solo Theme Developer
+- **Responsibilities**: Full-stack theme development including design, development, testing, and project management
+
+## Solo Developer Best Practices
+
+### Version Control & Organization
+- **Git Workflow**: Maintain clean commit history with descriptive messages
+- **Code Organization**: Modularize code into reusable components
+- **Meaningful Naming**: Use clear, descriptive names for variables, functions, and files
+- **Code Comments**: Document complex logic for future reference
+
+### Performance Optimization
+- **Minimize HTTP Requests**: Combine CSS and JavaScript files where possible
+- **Image Optimization**: Compress images without sacrificing quality
+- **Browser Caching**: Implement effective caching strategies
+- **JavaScript Efficiency**: Use HTML/CSS for basic functionality, JavaScript only when necessary
+
+### Mobile-First Development
+- **Responsive Design**: Ensure optimal experience across all screen sizes
+- **Touch-Friendly Interfaces**: Design for mobile interaction patterns
+- **Performance Testing**: Regular testing on various devices and browsers
+
+### Shopify Integration
+- **Native Features**: Leverage Shopify's built-in functionalities
+- **Theme Inspector**: Use Shopify's debugging tools effectively
+- **Regular Updates**: Stay current with Shopify's latest features and best practices
+
+### Quality Assurance
+- **Cross-Browser Testing**: Test across multiple browsers and devices
+- **Performance Monitoring**: Regular Lighthouse audits
+- **Theme Check**: Use Shopify's linting tools for code quality
+- **User Experience Testing**: Ensure smooth navigation and functionality
+
+## Development Guidelines
+
+When working on this Shopify theme project:
+
+1. **Refer to [AGENTS.md](mdc:AGENTS.md)** for development best practices and workflow
+2. **Follow Shopify best practices** for theme development
+3. **Maintain organized code structure** with proper documentation
+4. **Update the AGENTS.md file** when adding new practices or workflows
+5. **Use the established solo developer workflow** for efficient development
+
+## File Purpose
+
+The [AGENTS.md](mdc:AGENTS.md) file serves as:
+- A reference for solo development best practices
+- Documentation of development processes and workflows
+- Performance and quality guidelines
+- A living document that should be updated as practices evolve
+
+Always check this file when starting new development tasks to ensure adherence to established best practices and workflows.
+description:
+globs:
+alwaysApply: true
+---
