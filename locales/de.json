@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -525,6 +534,22 @@
       "send_on_label": "Senden am (optional)",
       "expanded": "Formular für den Empfänger des Gutscheins erweitert",
       "collapsed": "Formular für den Empfänger des Gutscheins minimiert"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "payment": {
+        "crypto_modal": {
+          "header": "Zahlen Sie %{shop_name} %{tal_price} USDC"
+        },
+        "bank_account_type": {
+          "checking": "Überprüfung",
+          "savings": "Ersparnisse"
+        },
+        "bank_account_choose": "Wählen Sie ein Konto, um Ihren Einkauf sicher abzuschließen",
+        "bank_account_connect_another": "Ein weiteres Bankkonto verbinden",
+        "bank_account_connect": "Bankkonto verbinden"
+      }
     }
   }
 }
